@@ -15,6 +15,7 @@ brew install make
 brew install wget
 brew install curl
 brew install git
+# brew install tar
 
 # docs
 # how to use the script in mac os
