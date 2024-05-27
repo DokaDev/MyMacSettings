@@ -7,5 +7,5 @@ install_setup:
 	git clone https://github.com/DokaDev/neovim_dots.git ~/.config/nvim
 
 setup_alias:
-	alias v=nvim >> ~/.zshrc
-	source ~/.zshrc
+	echo "alias v='nvim'" >> ~/.zshrc
+    source ~/.zshrc
