@@ -12,7 +12,7 @@
 
 # Add Homebrew to your PATH
 echo "Adding Homebrew to your PATH..."
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 
 # Apply changes to the current shell session
 echo "Applying changes to the current shell session..."
