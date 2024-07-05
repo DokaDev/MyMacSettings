@@ -24,7 +24,12 @@ zshhighlight:
 	source ~/.zshrc
 
 zoxide:
-	brea install zoxide
+	brew install zoxide
 
 	echo 'alias cd="z"' >> ~/.zshrc
 	echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
+
+auto-suggestions:
+	brew install zsh-autosuggestions
+	echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" > ~/.zshrc
+	source ~/.zshrc
