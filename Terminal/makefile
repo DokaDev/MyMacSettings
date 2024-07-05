@@ -1,4 +1,4 @@
-all: alias_clear powerlevel10k zshhighlight imprv_ls zoxide
+all: alias_clear powerlevel10k zshhighlight imprv_ls zoxide auto-suggestions
 
 alias_clear:
 	echo "alias cls=clear" >> ~/.zshrc
